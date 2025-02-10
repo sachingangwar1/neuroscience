@@ -1,0 +1,8 @@
+Simulating the human brain is the holy grail of neuroscience – offering a pioneering tool for understanding how our brain works and how to deal with its disorders like stroke, epilepsy or neurodegenerative diseases like Alzheimer’s or Parkinson’s.
+
+
+While large-scale research initiatives simulate neurons and small brain regions at the cellular level on massively parallel hardware, they are still years away from clinical applications.
+
+The Virtual Brain (TVB) takes a different approach and reduces complexity on the micro level to attain the macro organization: a TVB model of a patient's brain generates sufficiently accurate EEG, MEG, BOLD and SEEG signals by reducing the complexity millionfold through methods from statistical physics. The key is TVB’s hybrid approach of merging individual anatomy from brain imaging data with state-of-the-art mathematical-modeling.
+In the TVB ecosystem there is a new code repository called tvb-widgets offering neat UI widgets for Jupyterlab environments. These widgets are compatible with TVB data formats and able to display these data in different forms: 2D, 3D.
+The purpose of this project is to implement a new set of widgets, which would allow users to work in Jupyter Lab with the connectivity matrices.
